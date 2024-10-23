@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
-    /* background-color: rgba(0, 0, 0, 0.815); */
+    background-color: rgba(0, 0, 0, 0.815);
 }
 /* common class */
 :root{
@@ -277,11 +277,12 @@ margin-bottom: 2rem;
     bottom: 40px;
     left: 20px;
     backdrop-filter: blur(8px);
-
+mix-blend-mode: lighten;
 }
 /* footer */
 footer{
-    background: #292929c9;
+    /* background: #292929c9; */
+    color: #808080;
 }
 .get-started{
     color: var(--color-secondary);
