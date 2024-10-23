@@ -253,8 +253,31 @@ margin-bottom: 2rem;
     "height weight"
     "age gender"
     "activity activity";
-    
     gap: 10px;
+}
+
+/* Meet our team part */
+.trainer-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+.trainer{
+    position: relative;
+    text-align: center;
+    color: var(--color-secondary);
+}
+.trainer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.trainer>div{
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    backdrop-filter: blur(8px);
+
 }
 /* mobile device */
 @media screen and (max-width:576px){
